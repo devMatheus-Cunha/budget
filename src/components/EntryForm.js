@@ -28,7 +28,7 @@ function EntryForm({
           iconPosition='left'
           value={value}
           onChange={(event) => setValue(event.target.value)}
-        ></Form.Input>
+        />
       </Form.Group>
       <Segment compact>
         <Checkbox
